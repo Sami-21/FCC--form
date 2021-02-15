@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="AI_design.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+</head>
+<body>
+    <div class="container">
+        <form id="survey-form" action="on_submission.html">
+            <h2 id="title">Survey Form</h2>
+            <p class="text" id="description">My attempt to make a responsive form</p>
+            <div class="inputbox">
+                <input type="text" name="First Name" id="Name" required="required">
+                <label class="text" id="label-name">First Name</label>
+                <span class="line"></span>
+            </div>
+            <div class="inputbox">
+                <input type="text" name="Last Name" id="Last_Name" required="required">
+                <label class="text" id="Last_Name">Last Name</label>
+                <span class="line"></span>
+            </div>
+            <div class="inputbox">
+                <input type="email" name="Email" id="email" required="required">
+                <label class="text" id="label_email">Email</label>
+                <span class="line"></span>
+            </div>
+                <div class="inputbox">
+                    <input type="number" name="Number" id="number" required="" max="999999999999" min="0">
+                    <label class="text" id="number">Phone Number(Optional)</label>
+                    <span class="line"></span>
+                </div>
+                <div class="inputbox radio1">
+                <label class="questions">Do you see this design visually appealing?</label>
+            </div>
+               <div class="inputbox radio1">
+                     <label class="text choice">It's ugly</label><input type="radio" name="Design" required="required"> 
+                </div>
+                <div class="inputbox radio1">
+                    <label class="text choice">Not sure</label><input type="radio" name="Design" required="required"> 
+               </div>
+               <div class="inputbox radio1">
+                <label class="text choice">A little bit</label><input type="radio" name="Design" required="required"> 
+           </div>
+           <div class="inputbox radio1">
+            <label class="text choice">Definitely</label><input type="radio" name="Design" required="required"> 
+       </div>
+       <div class="inputbox">
+                    <label class="text" for="current role">your current role </label>
+                    <select name="menu" id="dropdown" required="required">
+                        <option class text disabled selected value>Current role</option>
+                        <option value="Student">Student</option>
+                        <option value="Full Time Job">Full Time Job</option>
+                        <option value="Full Time Learner">Full Time Learner</option>
+                        <option value="Prefer not to say">Prefer not to say</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="inputbox radio1">
+                    <label class="questions">How to make this design better</label>
+                </div>
+                   <div class="inputbox radio1">
+                         <label class="text choice">choice 1</label><input type="checkbox" value="choice 1" name="Design" required=""> 
+                    </div>
+                    <div class="inputbox radio1">
+                        <label class="text choice">choice 2</label><input type="checkbox" value="choice 2" name="Design" required=""> 
+                   </div>
+                   <div class="inputbox radio1">
+                    <label class="text choice">choice 3</label><input type="checkbox" value="choice 3" name="Design" required=""> 
+               </div>
+               <div class="inputbox radio1">
+                <label class="text choice">choice 4</label><input type="checkbox" value="choice 4" name="Design" required=""> 
+           </div>
+           <div class="inputbox radio1">
+                 <label class="text choice">choice 5</label><input type="checkbox" value="choice 5" name="Design" required=""> 
+            </div>
+            <div class="inputbox radio1">
+                <label class="text choice">choice 6</label><input type="checkbox" value="choice 6" name="Design" required=""> 
+           </div>
+           <div class="inputbox radio1">
+            <label class="text choice">choice 7</label><input type="checkbox" value="choice 7" name="Design" required=""> 
+       </div>
+       <div class="inputbox radio1">
+        <label class="text choice">choice 8</label><input type="checkbox" value="choice 8" name="Design" required=""> 
+   </div>
+   
+                
+                <div class="inputbox textarea">
+                    <textarea required=""></textarea>
+                    <label class="text">Type Your comment Here...
+                    </label>
+                <span class="line"></span>
+                </div>
+           <input type="submit" value="submit">
+        </form>
+    </div>
+    
+</body>
+</html>
